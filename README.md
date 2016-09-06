@@ -26,7 +26,7 @@ Types of requests:
 
 2. General request – Current stations broadcasts this to all other stations in case withdraw request didn’t get any response.
 
-Whoever, sends the positive reply to general broadcasted request that station thus lends required power units. New values of capacity and threshold are updated in both the systems as shown in figure 2 i.e. the station which requests and station which lends the power units.
+Whoever, sends the positive reply to general broadcasted request that station thus lends required power units. New values of capacity and threshold are updated in both the systems i.e. the station which requests and station which lends the power units.
 
 As we have peak value data on biweekly basis, at the end of 2nd week we need to update peak value table, with new peak values observed on the basis of current trend in the demand for power supply and this updated table goes input to demand response system for next cycle.
 
