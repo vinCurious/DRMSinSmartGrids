@@ -23,6 +23,7 @@ Whenever consumer requests power supply from the power station, it redirects the
 
 Types of requests:
 1. Withdraw Request – Current station broadcasts this type pf request in case it had previously lent some power to other stations. This request is sent to these stations only.
+
 2. General request – Current stations broadcasts this to all other stations in case withdraw request didn’t get any response.
 
 Whoever, sends the positive reply to general broadcasted request that station thus lends required power units. New values of capacity and threshold are updated in both the systems as shown in figure 2 i.e. the station which requests and station which lends the power units.
